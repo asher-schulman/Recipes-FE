@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Counter from "./components/Counter";
 import TestCall from "./components/TestCall";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
 // /api/recipes
@@ -15,10 +16,9 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<h1>Recipe App</h1>
-
-			<TestCall />
+			<Navbar />
 			<Counter />
+			<TestCall />
 		</div>
 	);
 }

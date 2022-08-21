@@ -17,6 +17,7 @@ const TestCall = () => {
 	useEffect(() => {
 		getData();
 	}, []);
+
 	return (
 		<div>
 			<h1>Test Call</h1>
