@@ -1,8 +1,9 @@
 # Recipe App
 
 This project was bootstrapped with [create-vite](https://www.npmjs.com/package/create-vite).
+Make sure to run `npm install` after cloning the repo down in order to install relevant packages.
 
-##Available Scripts
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm run dev`
