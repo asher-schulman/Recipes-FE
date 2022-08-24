@@ -5,12 +5,12 @@ const Header = () => {
 		<header className="navbar my-2">
 			<section className="navbar-section">
 				<a href="..." className="navbar-brand mr-2">
-					Spectre.css
+					Longest John's Recipe App
 				</a>
 			</section>
 			<section className="navbar-section">
 				<a href="..." className="btn btn-link">
-					Docs
+					About
 				</a>
 				<a href="..." className="btn btn-link">
 					GitHub

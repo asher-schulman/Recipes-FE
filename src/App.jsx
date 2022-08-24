@@ -13,8 +13,10 @@ import "./App.css";
 
 function App() {
 	return (
-		<div className="App container grid-xl">
-			<Homepage />
+		<div className="App bg-secondary">
+			<div className="container grid-xl">
+				<Homepage />
+			</div>
 		</div>
 	);
 }

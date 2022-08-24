@@ -5,7 +5,7 @@ import Searchbar from "../Searchbar";
 
 const Homepage = () => {
 	return (
-		<div>
+		<div className="m-2 p-2">
 			<Navbar />
 			<Searchbar />
 			<Counter />
