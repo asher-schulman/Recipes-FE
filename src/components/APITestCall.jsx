@@ -23,7 +23,7 @@ const TestCall = () => {
 			<h1>Test Call</h1>
 			<ul>
 				{data.map((item) => (
-					<li key={item._id.$oid}>{item.title}</li>
+					<li key={item._id}>{item.title}</li>
 				))}
 			</ul>
 		</div>

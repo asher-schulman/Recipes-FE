@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Counter from "../Counter";
 import Searchbar from "../Searchbar";
+import APITestCall from "../APITestCall";
 
 const Homepage = () => {
 	return (
@@ -9,6 +10,7 @@ const Homepage = () => {
 			<Navbar />
 			<Searchbar />
 			<Counter />
+			<APITestCall />
 		</div>
 	);
 };
