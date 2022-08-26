@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import Counter from "../Counter";
 import Searchbar from "../Searchbar";
 import APITestCall from "../APITestCall";
+import Footer from "../Footer";
 
 const Homepage = () => {
 	return (
@@ -11,6 +12,7 @@ const Homepage = () => {
 			<Searchbar />
 			<Counter />
 			<APITestCall />
+			<Footer />
 		</div>
 	);
 };
